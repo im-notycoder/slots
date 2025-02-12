@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slots Machine</title>
+</head>
+
+<body>
+  <div class="slots">
+    <div class="reel"></div>
+    <div class="reel"></div>
+    <div class="reel"></div>
+  </div>
+ 
+
+  
+  <div id="debug" class="debug"></div>
+ 
+  <div id="rollingText" class="rolling-text"></div>
+
+  <div class="scoreboard-container">
+    <div id="scoreboard" class="scoreboard">Score: 0 | Spins Remaining: 5</div>
+  </div>
+
+  <div class="buttons">
+    <button id="spinner">Play</button>
+  </div>
+
+  <img style="position: fixed; left: 0; top: 0; height: 90vh; width: auto; border-radius:10px;" src="https://assets.codepen.io/439000/slotreel.webp">
+
+  <!-- "End Game" button with a style to initially hide it -->
+  <button id="endGame" style="display: none; background-color: #e74c3c; color: #fff; padding: 10px 20px; font-size: 16px; cursor: pointer; border: none; border-radius: 5px; margin-top: 10px;">
+    End Game
+  </button>
+
+<!-- Info Box -->
+<div id="infoBox" class="info-box">
+  <div class="info-header">How to Play</div>
+  <div class="info-content">
+    <p>1. Click the "Play" button to spin the slots.</p>
+    <p>2. Match icons to earn points.</p>
+    <p>3. Scoring: </p>
+    <ul>
+      <li>Three matching icons: 500 points</li>
+      <li>Two matching icons: 200 points</li>
+      <li>No matching icons: 50 points</li>
+    </ul>
+    <p>4. You have 5 spins. Try to score the highest!</p>
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <div class="footer">Dihein. E, Mark. W, Sharib. S - Slots Machine.</div>
+
+  <script>
+    /* Our JavaScript Code (for publishing site) */
+    // ...
+  </script>
+</body>
+
+</html>
